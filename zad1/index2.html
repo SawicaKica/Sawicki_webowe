@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .bloczek{
+                width: 100px;
+                height: 200px;
+                border: 1px solid black;
+                float: left;
+            }
+            #blokbialy{
+                background-color: white;
+            }
+            #blokczarny{
+                background-color: black;
+            }
+            #blokzielony{
+                background-color: green;
+            }
+            #blokniebieski{
+                background-color: blue;
+            }
+            #blokczerwony{
+                background-color: red;
+                }
+        </style>
+    </head>
+    <body>
+        <input type="checkbox" id="bialy" class="bloki">Biały</input>
+        <input type="checkbox" id="czarny" class="bloki">Czarny</input>
+        <input type="checkbox" id="zielony" class="bloki">Zielony</input>
+        <input type="checkbox" id="niebieski" class="bloki">Niebieski</input>
+        <input type="checkbox" id="czerwony" class="bloki">Czerwony</input><br>
+        
+        Zaznaczono <span id="licznik">0 pól</span>
+
+        <div id="kolory">
+            <!-- tu beda pojawiac sie bloki -->
+        </div>
+
+        <script src="jQuery.js" type="text/javascript"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
