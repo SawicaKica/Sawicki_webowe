@@ -1,0 +1,103 @@
+{
+    "routes":[
+      {
+        "id": 1,
+        "route": [57.9873,15.4519,58.7822,34.6782],
+        "name":"Glowa w chmurach",
+        "length": 950,
+        "description":"Ta trasa sprawi, ze nie bedziesz mogl przestac o niej przestac myslec",
+        "type": "walking",
+        "image_url":"https://galeria.bankier.pl/p/e/1/3b46dd32cb94cd-948-568-0-134-3000-1799.jpg",
+        "best_lap": [1661126400000, 786]
+      },
+     {
+        "id": 2,
+        "route": [50.9873,15.4519,50.7822,15.9801],
+        "name":"Bieszczady",
+        "length": 1950,
+        "description":"Trasa dla najbardziej wymagających, zawierające piękne widoki i lokalną zwierzynę",
+        "type": "bicycle",
+        "image_url":"https://hasajacezajace.com/wp-content/uploads/2022/08/bukowe-berdo-8-370x285.jpg",
+        "best_lap": [1660094578000, 786]
+      },
+     {
+        "id": 3,
+        "route": [50.0,15.9,50.009,15.85],
+        "name":"Tour de Okocim",
+        "length": 5500,
+        "description":"Trasa po majestatycznym i przepieknym miescie jakim jest okocim.",
+        "type": "bicycle",
+        "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Brewery_in_Okocim_1.jpg",
+        "best_lap": [1660000578999, 786]
+      },
+      {
+        "id": 4,
+        "route": [57.197765,69.084907],
+        "name":"Obrotowa Pradolina",
+        "length": 2400,
+        "description":"Piekna i majestatyczna zielen, bogata struktura ludowa - innym slowem, obrotowa dolina.",
+        "type": "bicycle",
+        "image_url":"https://upload.wikimedia.org/wikipedia/commons/5/56/Dolina_%C5%9Arodkowej_Noteci_i_Kana%C5%82u_Bydgoskiego.jpg",
+        "best_lap": [1660000578999, 786]
+      },
+      {
+        "id": 5,
+        "route": [33.964583,102.483343],
+        "name":"Wydmy Adama",
+        "length": 3500,
+        "description":"Plaza, morze to twoje drugie imie? Ta trasa idealnie sie dla ciebie sprawdzi.",
+        "type": "walking",
+        "image_url":"https://grafywpodrozy.cba.pl/wp-content/uploads/2018/08/wydmy-leba-12-960x600.jpg",
+        "best_lap": [1660000578999, 786]
+      },
+      {
+        "id": 6,
+        "route": [43.407672,-95.446338],
+        "name":"Dolina smierci",
+        "length": 2500,
+        "description":"Jesli kochasz podrozowanie, z nutka emocji, ta trasa jest idealna dla ciebie.",
+        "type": "walking",
+        "image_url":"https://amerykaija.pl/wp-content/uploads/2019/09/dolina-smierci-1.jpg",
+        "best_lap": [1660000578999, 786]
+      }    
+    ],
+     
+     "users":[
+       {
+         "id": 1,
+         "nick": "Sawica",
+         "last_time":[
+           {
+            "route_id":1,
+            "time":96,
+            "date":1661004729832
+           },
+           {
+            "route_id":2,
+            "time":398,
+            "date":1662594578000
+           },
+           {
+            "route_id":3,
+            "time":2434,
+            "date":1663004654321
+           },
+           {
+            "route_id":4,
+            "time":1320,
+            "date":1664004123456
+           },
+           {
+            "route_id":5,
+            "time":1204,
+            "date":1665004638409
+           },
+           {
+            "route_id":6,
+            "time":1423,
+            "date":1666004836209
+           }
+          ]
+       }
+      ]
+   }
